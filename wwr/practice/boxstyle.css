@@ -1,0 +1,18 @@
+body {
+    background-color: cornflowerblue;
+}
+.qbox1,.qbox2,.qbox3 {
+    box-sizing:border-box;
+    
+}
+.qbox1 {
+    margin: 20px;
+    border: 15px solid palevioletred
+    padding 10px 15px;
+    width: 500px;
+    background: white
+    border-radius 20px;
+    font-family:monospace
+    font-weight
+
+}
