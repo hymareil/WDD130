@@ -35,7 +35,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
 }
 img {
@@ -112,7 +112,8 @@ nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
+  color: #6A7FDB;
+  padding: 35px;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -163,4 +164,26 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+.home-title {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2em;
+}
+.msg {
+  background-color: #D6A2AD;
+  line-height: 1.5em;
+}.book, .join {
+  background-color: aquamarine;
+  color: coral;
+  text-decoration: dotted;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.card-img {
+  border: 10px solid #6A7FDB;
+}
+main section img {
+  box-sizing: border-box;
 }

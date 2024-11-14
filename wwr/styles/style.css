@@ -46,6 +46,6 @@ nav a {
 footer p {
     font-size: 1.2em;
 }
-footer p a:hover {
+footer p:hover {
     text-decoration: underline;
 }
