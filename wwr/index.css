@@ -1,0 +1,23 @@
+/* Make sure to resize images */
+.smaller-img {
+    max-width: 60%; /* Limits the width of the images to 80% of their container */
+    height: auto;   /* Adjusts the height to maintain aspect ratio */
+    display: block; /* Makes images block-level elements (so they don't stretch side by side) */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+/* Example for specific adjustments */
+#hero-img {
+    max-width: fit-content;  /* Ensures the hero image is responsive */
+    height: auto;
+}
+
+.card-img {
+    max-width: 50%;   /* Limits the size of the card images */
+    height: auto;
+}
+
+.mountains {
+    max-width: 95%;  /* Ensures the mountains image doesn't exceed the container */
+    height: auto;
+}
